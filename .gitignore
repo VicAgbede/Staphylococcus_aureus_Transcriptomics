@@ -1,0 +1,14 @@
+# Ignore heavy raw sequencing reads
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Ignore heavy binary alignment map files and intermediate SAM formats
+*.sam
+*.bam
+*.bai
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
