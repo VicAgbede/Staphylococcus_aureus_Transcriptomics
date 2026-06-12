@@ -20,14 +20,16 @@ The analysis transitioned from raw sequencing reads to biological interpretation
 ### 1. The Global Transcriptomic Landscape (Volcano Plot)
 To assess the overall magnitude and statistical significance of the genetic shift between the Mutant and Wild-Type strains, a customized volcano plot was generated using `ggplot2` and `ggrepel`.
 
-![Volcano Plot](volcano_plot.png)
+<img width="543" height="479" alt="Mutant_vs_WildType_Vol_top10_gene_plot" src="https://github.com/user-attachments/assets/1e7a5a82-b016-4d84-9284-6906c23b2ba3" />
+
 
 * **Key Insight:** The plot demonstrates a massive vertical separation of high-significance responders. A notable heavy-hitter on the upregulated side includes **`asnC`**, which climbs to an astronomical statistical ceiling near $-\log_{10}(P_{\text{adj}}) = 78$. Conversely, **`pyrE`** displays deep, undeniable down-regulation on the left wing, marking it as a critical downstream component suppressed by the *cvfE* knockout.
 
 ### 2. Hierarchical Clustering (Expression Signatures Heatmap)
 To visualize clean visual contrast and directional expression profiles across all biological replicates, a diverging Red-Yellow-Blue (`RdYlBu`) heatmap was constructed using `ComplexHeatmap`. The matrix displays a balanced panel of the top 5 most significant upregulated and top 5 most significant downregulated genes.
 
-![Hierarchical Heatmap](heatmap_final.png)
+<img width="543" height="479" alt="Mutant_vs_WildType_HeatMap" src="https://github.com/user-attachments/assets/3dd0ffb1-c146-4145-94d2-f38a408c973f" />
+
 
 * **Key Insight:** The dual dendrograms reveal flawless replicate consistency. The algorithm splits the 9 samples cleanly by biological condition without prior grouping inputs. The resulting layout showcases an explicit, mirror-image molecular switch: one core gene block is highly active (brick red) in the mutant while completely suppressed in the baseline strains, while the second block shows the exact inverse behavior.
 
