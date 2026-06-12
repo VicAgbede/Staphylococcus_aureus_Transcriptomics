@@ -1,0 +1,10 @@
+SampleID,Condition,Replicate
+DRR084259,WildType,Rep1
+DRR084260,WildType,Rep2
+DRR084261,WildType,Rep3
+DRR084262,Mutant,Rep1
+DRR084263,Mutant,Rep2
+DRR084264,Mutant,Rep3
+DRR084265,Complemented,Rep1
+DRR084266,Complemented,Rep2
+DRR084267,Complemented,Rep3
