@@ -5,6 +5,17 @@ This repository contains an end-to-end computational biology pipeline profiling 
 
 ---
 
+## Biological Context & Dataset
+Reference Genome: Staphylococcus aureus NCTC 8325 (Parent parental background strain)
+
+Dataset Source: NCBI Sequence Read Archive (SRA)
+
+BioProject ID: PRJNA481414
+
+Experimental Condition: Transcription profiling comparing wild-type S. aureus against cvfE mutant strains to evaluate virulence network regulation.
+
+---
+
 ## Technical Pipeline & Workflow
 The analysis transitioned from raw sequencing reads to biological interpretation using a structured bioinformatics infrastructure:
 
@@ -31,7 +42,7 @@ To visualize clean visual contrast and directional expression profiles across al
 <img width="543" height="479" alt="Mutant_vs_WildType_HeatMap" src="https://github.com/user-attachments/assets/3dd0ffb1-c146-4145-94d2-f38a408c973f" />
 
 
-* **Key Insight:** The dual dendrograms reveal flawless replicate consistency. The algorithm splits the 9 samples cleanly by biological condition without prior grouping inputs. The resulting layout showcases an explicit, mirror-image molecular switch: one core gene block is highly active (brick red) in the mutant while completely suppressed in the baseline strains, while the second block shows the exact inverse behavior.
+* **Key Insight:** The dual dendrograms reveal replicate consistency. The algorithm splits the 9 samples cleanly by biological condition without prior grouping inputs. The resulting layout showcases an explicit, mirror-image molecular switch: one core gene block is highly active (brick red) in the mutant while completely suppressed in the baseline strains, while the second block shows the exact inverse behavior.
 
 ---
 
