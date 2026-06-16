@@ -11,7 +11,7 @@ This repository contains an end-to-end computational biology pipeline profiling 
 * **Dataset Source:** NCBI Sequence Read Archive (SRA) / BioProject
 * **BioProject ID:** PRJDB5479
 * **Reference Publication:** Panthee et al. (PMC9660545)
-* **Experimental Design:** Transcriptional profiling across 9 replicates evaluating a three-condition genetic matrix: Wild-Type baseline, $\Delta$cvfE knockout mutant, and the complemented rescue strain.
+* **Experimental Design:** Transcriptional profiling across 9 replicates evaluating a three-condition genetic matrix: Wild-Type baseline, ∆cvfE knockout mutant, and the complemented rescue strain.
 
 ---
 
@@ -41,7 +41,7 @@ To visualize clean visual contrast and directional expression profiles across al
 
 * **Key Insight:** The dual dendrograms reveal replicate consistency. The algorithm splits the 9 samples cleanly by biological condition without prior grouping inputs, which explicitly map to:
   - **Wild-Type Baseline** (DRR084259–61)
-  - **$\Delta$cvfE Knockout Mutant** (DRR084262–64)
+  - **∆cvfE Knockout Mutant** (DRR084262–64)
   - **Complemented Strain** (DRR084265–67)
   
   The heatmap beautifully shows that when the regulator is knocked out, the gene expression patterns completely flip—and when the gene is complemented, the expression profile reverts right back to the wild-type baseline, proving that reintroducing the gene successfully reversed the mutant defects.
